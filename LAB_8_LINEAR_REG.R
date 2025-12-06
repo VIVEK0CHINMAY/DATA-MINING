@@ -59,7 +59,4 @@ predicted_reg=predict(model,data=test$model)
 print(predicted_reg)
 
 
-# ROC CURVE
-ROCpred=prediction(predicted,test$vs)
-ROCpred=performance(ROCpred,measure = )
 
